@@ -1,0 +1,17 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Pub/Sub Python on Google App Engine</title>
+</head>
+<body>
+<div>
+  <p>Messages received by this instance:</p>
+  <ul>
+    {% for message in messages: %}
+      <li>{{message}}</li>
+    {% endfor %}
+  </ul>
+</div>
+</body>
+</html>
